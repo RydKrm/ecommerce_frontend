@@ -33,11 +33,6 @@ module.exports = {
         bg_color3: "#FFFCEB",
         bg_color4: "#FFF3FF",
       },
-      borderRadius: {
-        lg: "var(--radius)",
-        md: "calc(var(--radius) - 2px)",
-        sm: "calc(var(--radius) - 4px)",
-      },
       keyframes: {
         "accordion-down": {
           from: { height: "0" },

@@ -44,11 +44,16 @@ export const categoryList = [
   },
 ];
 
-export const color = ["#ECFFEC", "#FEEFEA", "#FFFCEB", "#FFF3FF"];
+export const color = [
+  "bg-[#ECFFEC]",
+  "bg-[#FEEFEA]",
+  "bg-[#FFFCEB]",
+  "bg-[#FFF3FF]",
+];
 
 const CategorySlider = () => {
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-x-4 mb-10">
+    <div className="grid grid-cols-4 md:grid-cols-4 lg:grid-cols-8 gap-x-4 mb-10">
       {categoryList.map((category, index) => (
         <CategoryCart
           key={category.name}
