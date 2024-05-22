@@ -1,21 +1,21 @@
-"use client";
-import Image from "next/image";
-import React, { useEffect, useState } from "react";
+'use client';
+import Image from 'next/image';
+import React, { useEffect, useState } from 'react';
 
 const slides = [
   {
     bigText: `Fresh Vegetables
                   <br />
                   Big discount`,
-    smallText: "Save up to 50% off on your first order",
-    image: "/images/slider/slider-1.png",
+    smallText: 'Save up to 50% off on your first order',
+    image: '/images/slider/slider-1.png',
   },
   {
     bigText: `Fresh Vegetables
                   <br />
                   Big discount`,
-    smallText: "Save up to 60% off on your second order",
-    image: "/images/slider/slider-2.png",
+    smallText: 'Save up to 60% off on your second order',
+    image: '/images/slider/slider-2.png',
   },
 ];
 
@@ -31,12 +31,8 @@ const Slider = () => {
 
   return (
     <>
-      <div className="relative overflow-hidden w-[92%] mx-auto mb-5">
-        <div
-          className="flex transition delay-700 duration-300 ease-in-out"
-          // style={{ transform: `translateX(-${currentIndex * 100}%)` }}
-        >
-          {/* {slides.map((slide, index) => ( */}
+      <div className="relative container mx-auto mb-5">
+        <div className="flex transition delay-700 duration-300 ease-in-out">
           <div className="w-full flex-shrink-0">
             <Image
               width={1000}
@@ -51,7 +47,8 @@ const Slider = () => {
                 className="text-6xl font-bold text-slate-800 mb-4"
                 dangerouslySetInnerHTML={{
                   __html: slides[currentIndex].bigText,
-                }}></h1>
+                }}
+              ></h1>
               <p className="text-xl text-gray-500 mb-6">
                 {slides[currentIndex].smallText}
               </p>
@@ -80,7 +77,7 @@ const Slider = () => {
               key={index}
               onClick={() => setCurrentIndex(index)}
               className={`w-3 h-3 rounded-full ${
-                currentIndex === index ? "bg-green-500" : "bg-gray-300"
+                currentIndex === index ? 'bg-green-500' : 'bg-gray-300'
               }`}
             />
           ))}

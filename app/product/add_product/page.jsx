@@ -1,5 +1,5 @@
 'use client'
-import { Button } from "@/components/ui/button";
+import { Button } from "@/components/ui/Button";
 import InputField from "@/components/ui/inputField";
 import SelectField from "@/components/ui/selectField";
 import React, { useState } from "react";

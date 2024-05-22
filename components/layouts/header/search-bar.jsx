@@ -1,11 +1,11 @@
-import Image from "next/image";
-import React from "react";
-import { FaSearch } from "react-icons/fa";
-import { GoPerson } from "react-icons/go";
-import { IoCartOutline } from "react-icons/io5";
-import { IoIosGitCompare, IoIosHeartEmpty } from "react-icons/io";
+import Image from 'next/image';
+import React from 'react';
+import { FaSearch } from 'react-icons/fa';
+import { GoPerson } from 'react-icons/go';
+import { IoCartOutline } from 'react-icons/io5';
+import { IoIosGitCompare, IoIosHeartEmpty } from 'react-icons/io';
 
-import logo from "../../../public/logo.svg";
+import logo from '../../../public/logo.svg';
 
 const SearchBar = () => {
   return (

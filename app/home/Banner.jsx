@@ -1,28 +1,28 @@
-import HorizontalCart from "@/components/ui/HorizontalCart";
-import React from "react";
-import { color } from "./CategorySlider";
+import HorizontalCart from '@/components/ui/HorizontalCart';
+import React from 'react';
+import { color } from './CategorySlider';
 
 const Banner = () => {
   const bannerInfo = [
     {
-      text: "Make your Breakfast Healthy and Easy",
-      buttonText: "Shop now",
-      image: "/images/banner/banner-1.png",
+      text: 'Make your Breakfast Healthy and Easy',
+      buttonText: 'Shop now',
+      image: '/images/banner/banner-1.png',
     },
     {
-      text: "Everyday Fresh Clean with OurProducts",
-      buttonText: "Shop now",
-      image: "/images/banner/banner-2.png",
+      text: 'Everyday Fresh Clean with OurProducts',
+      buttonText: 'Shop now',
+      image: '/images/banner/banner-2.png',
     },
     {
-      text: "Make your Breakfast health and Easy",
-      buttonText: "Shop now",
-      image: "/images/banner/banner-3.png",
+      text: 'Make your Breakfast health and Easy',
+      buttonText: 'Shop now',
+      image: '/images/banner/banner-3.png',
     },
     {
-      text: "Make your Breakfast health and Easy",
-      buttonText: "Shop now",
-      image: "/images/banner/banner-3.png",
+      text: 'Make your Breakfast health and Easy',
+      buttonText: 'Shop now',
+      image: '/images/banner/banner-3.png',
     },
   ];
 

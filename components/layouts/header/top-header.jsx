@@ -1,9 +1,9 @@
-import Link from "next/link";
-import React from "react";
+import Link from 'next/link';
+import React from 'react';
 
 const TopHeader = () => {
   return (
-    <div className="w-[90%] mx-auto mt-2 place-content-between flex flex-row font-normal text-slate-600">
+    <div className="container mx-auto mt-2 place-content-between flex flex-row font-normal text-slate-600 text-small">
       <ul className="flex flex-row space-x-4  text-[13px] divide-x ps-3">
         <li>
           <Link className="ms-2" href={`about_us`}>

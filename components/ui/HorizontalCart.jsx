@@ -1,11 +1,11 @@
-import Image from "next/image";
-import React from "react";
-import Button from "./Button";
-import { GoArrowRight } from "react-icons/go";
+import Image from 'next/image';
+import React from 'react';
+import Button from './Button';
+import { GoArrowRight } from 'react-icons/go';
 
 const HorizontalCart = ({ info, color }) => {
   return (
-    <div className="relative w-80 h-44 rounded-xl container mb-3">
+    <div className="relative w-80 h-44 rounded-xl mb-3 me-8">
       <Image
         className="h-full w-full rounded-xl absolute z-10"
         src={info.image}
@@ -18,7 +18,8 @@ const HorizontalCart = ({ info, color }) => {
       </h2>
       <Button
         className="absolute top-24 right-10 z-20 font-semibold text-xs text-white flex flex-row content-center items-center gap-x-2"
-        size="sm">
+        size="sm"
+      >
         <GoArrowRight />
         {info.buttonText}
       </Button>

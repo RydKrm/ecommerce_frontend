@@ -1,10 +1,11 @@
-import Image from "next/image";
-import React from "react";
+import Image from 'next/image';
+import React from 'react';
 
 const CategoryCart = ({ color, item }) => {
   return (
     <div
-      className={`${color} flex flex-col rounded-xl content-center items-center mt-5 pb-5 pt-5 h-40 w-40`}>
+      className={`${color} flex flex-col rounded-xl content-center items-center mt-5 pb-5 pt-5 h-40 w-40 ms-8`}
+    >
       <Image
         className="h-16 w-16"
         src={item.image}

@@ -1,12 +1,12 @@
-import React from "react";
-import { productList } from "./Product";
-import LineCart from "@/components/ui/LineCart";
+import React from 'react';
+import { productList } from './Product';
+import LineCart from '@/components/ui/LineCart';
 
 const TopProduct = () => {
   const productList4 = productList.slice(0, 4);
   const productList8 = productList.slice(4, 8);
   return (
-    <div className="container grid grid-cols-2 lg:grid-cols-4 gap-4 ">
+    <div className="container grid grid-cols-2 lg:grid-cols-4 gap-4 my-20">
       <div className="flex flex-col">
         <h2 className="text-h4 border-b-[.2px] border-gray-200 pb-2">
           Trending Products
