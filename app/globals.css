@@ -40,10 +40,16 @@
   }
 
   .subscribe_header {
-    background-image: url("/images/banner/banner-10.png");
+    background-image: url('/images/banner/banner-10.png');
     background-size: cover;
     /* background-repeat: no-repeat; */
     background-color: #d9f1e6;
+  }
+
+  .hero_bg_image {
+    background-image: url('/images/banner/banner-10.png');
+    background-size: cover;
+    background-repeat: no-repeat;
   }
 
   /* *TODO -  */
