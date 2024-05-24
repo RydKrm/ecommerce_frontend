@@ -14,7 +14,11 @@ const Container = ({ children, variant = 'default', className = '' }) => {
 export default Container;
 
 export const FlexRow = ({ children, className = '' }) => {
-  return <div className={`flex flex-row gap-3 ${className}`}>{children}</div>;
+  return (
+    <div className={`flex flex-col md:flex-row gap-3 ${className}`}>
+      {children}
+    </div>
+  );
 };
 
 export const FlexCol = ({ children, className }) => {
